@@ -1,0 +1,5 @@
+# Computer Vision library for image processing and video capture
+opencv-python>=4.5.0
+
+# Scientific computing library for array operations (matrices)
+numpy>=1.20.0
