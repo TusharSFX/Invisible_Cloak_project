@@ -1,6 +1,5 @@
-================================================================================
+
                                 INVISIBLE CLOAK
-================================================================================
 
 PROJECT OVERVIEW
 ----------------
@@ -9,9 +8,7 @@ It works by capturing a static background frame and then replacing any red pixel
 in the live video feed with pixels from that background, creating the illusion 
 of transparency.
 
-================================================================================
                             INSTALL DEPENDENCIES
-================================================================================
 
 To run this project, you need Python installed on your machine along with specific
 libraries.
@@ -29,10 +26,7 @@ Required Libraries:
 - numpy: For matrix operations and array handling.
 - time: Standard Python library (pre-installed) for handling delays.
 
-================================================================================
                                  HOW TO RUN
-================================================================================
-
 1. PREPARATION:
    - Place your laptop/webcam on a stable surface. It must not move.
    - Have a red cloth ready (or the color you configured).
@@ -57,9 +51,8 @@ Required Libraries:
 5. OUTPUT:
    - The video will be saved as 'output.avi' in the same folder.
 
-================================================================================
+
                                 HOW IT WORKS
-================================================================================
 
 The logic relies on Color Segmentation and Masking:
 
@@ -80,9 +73,8 @@ The logic relies on Color Segmentation and Masking:
    - The "Non-Red" area is filled with pixels from the current live frame.
    - These two are combined to create the final "invisible" effect.
 
-================================================================================
+
                                 CUSTOMIZATION
-================================================================================
 
 Adjusting for Different Colors:
 If you don't have a red cloth, you can use blue or green. You must change the
@@ -97,9 +89,8 @@ Adjusting Sensitivity:
 If parts of the cloth aren't disappearing, try lowering the Saturation (middle value)
 in the lower_red array (e.g., change 120 to 100).
 
-================================================================================
+
                                    LICENSE
-================================================================================
 
 MIT License
 
